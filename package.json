@@ -1,0 +1,30 @@
+{
+  "name": "sunsetcamera",
+  "version": "1.0.0",
+  "description": "Takes a picture at sunset",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Frijol/sunsetcamera.git"
+  },
+  "keywords": [
+    "sunset",
+    "sunrise",
+    "tessel",
+    "camera",
+    "keen"
+  ],
+  "author": "Kelsey Breseman",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Frijol/sunsetcamera/issues"
+  },
+  "homepage": "https://github.com/Frijol/sunsetcamera",
+  "dependencies": {
+    "camera-vc0706": "^0.1.6",
+    "suncalc": "^1.6.0"
+  }
+}
